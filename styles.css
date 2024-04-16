@@ -710,7 +710,10 @@ h3.my-profession {
     width: 100%;
     display: block;
 }
-
+.portfolio-item .portfolio-item-inner a {
+    color: var(--skin-color);
+    padding-left: 15px;
+}
 .portfolio .portfolio-item-inner:hover {
     box-shadow: 0 0 20px rgba(48, 46, 77, 1);
 
